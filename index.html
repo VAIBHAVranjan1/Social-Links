@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/photo  2-min 3.jpeg">
+  
+  <title>Social Link Profile</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: black;
+      font-family: "Outfit", system-ui;
+    }
+
+    .card {
+      width: 80%;
+      max-width: 320px;
+      background-color: hsl(0, 0%, 20%);
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .imgs {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .name {
+      color: white;
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+
+    .location {
+      color: hsl(196, 62%, 76%);
+      font-weight: 500;
+      margin-bottom: 10px;
+    }
+
+    .info {
+      color: white;
+      font-weight: 300;
+      margin-bottom: 20px;
+    }
+
+    .links {
+      background-color: hsl(0, 0%, 12%);
+      color: white;
+      font-size: 1rem;
+      padding: 15px;
+      border-radius: 12px;
+      margin-bottom: 10px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .links a {
+      color: inherit; 
+      text-decoration: none;
+      display: block;
+    }
+
+    .links:hover {
+      background-color: hsl(75, 94%, 57%);
+      color: hsl(0, 0%, 8%);
+    }
+
+    .links:hover a {
+      color: inherit;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="imgs">
+      <img src="./assets/images/photo  2-min 3.jpeg" alt="Jessica Randall">
+    </div>
+    <div class="name">Vaibhav Ranjan</div>
+    <div class="location">Delhi, India</div>
+    <div class="info">"Front-end developer and avid reader."</div>
+    <div class="links"><a href="https://github.com/VAIBHAVranjan1" target="_blank">GitHub</a></div>
+    <div class="links"><a href="https://www.linkedin.com/in/vaibhav-ranjan-9284062a9/" target="_blank">LinkedIn</a></div>
+    <div class="links"><a href="https://x.com/VaibhavRANJAN_9" target="_blank">Twitter</a></div>
+  </div>
+</body>
+</html>
